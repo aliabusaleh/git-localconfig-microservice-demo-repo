@@ -1,0 +1,10 @@
+eureka:
+  client:
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: http://naming-server:8761/eureka
+logging:
+  file:
+    name: ./elk/ride-service.log
+server:
+  port: 8020
